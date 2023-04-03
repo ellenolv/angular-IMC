@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: center; 
+    justify-content: center;
+   align-items: center;
+   align-content: center;
+   margin-left: 50px;
+   margin-right: 50px;
+   padding: 40px;
+
+}
+
+.calculadora, .texto{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2cm;
+}
+.calculadora{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 40px;
+}
+
+h1, .cabecalho{
+    color: #f2f3ae;
+    font-weight: 700;
+}

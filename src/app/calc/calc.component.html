@@ -1,0 +1,21 @@
+<form>
+    <div class="inputs">
+        <label>Altura: </label><br>
+        <input type="number" name="altura" [(ngModel)]="altura" class="caixa"><br>
+        <label> Peso:  </label><br>
+         <input type="number" name="peso" [(ngModel)]="peso" class="caixa" ><br><br>
+    </div>
+    
+    <div class="botoes">
+        <button (click)="calc()"> calcular </button>
+        <button (click)="limpar()" class="button"> C </button><br><br>
+    </div>
+    
+
+
+    <div class="resultados">
+        <input [value] = "result" class="resultados" id="resultado" readonly>
+        <input [value] = "msg" class="resultados"  readonly>
+    </div>
+    
+</form>

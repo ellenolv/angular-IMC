@@ -1,0 +1,40 @@
+
+button{
+    width: 15em;
+    height: 40px;
+    font-size: medium;
+    background-color: indianred;
+    border-color: lightcoral;
+    color: #f2f3ae;
+    border-radius: 20px;
+}
+
+.inputs{
+    font-size: x-large;
+    color:#f2f3ae ;
+    font-weight: 500;
+
+}
+.caixa{
+    margin-left: 5px;
+}
+
+
+.caixa, .resultados{
+    font-size: large;
+    border-radius: 20px;
+    border-color: #ff7f7f;
+    width: 15em;
+    height: 30px;
+    
+
+}
+.resultados{
+    background-color: #f5adad68;
+    
+}
+button:hover{
+    background-color: #340a0a;
+    color: #f5f5dc;
+    cursor: pointer;
+}
